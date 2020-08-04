@@ -4,6 +4,9 @@
 # or whitespace (' ').
 
 class EmailAddressParser
-  def initialize #this will allow us to accept an argument of a string upon creation
+  def initialize(string_of_emails)  #this will allow us to accept an argument of a string upon creation
+    @string_of_emails = string_of_emails
   end
+  
+  
 end
