@@ -9,7 +9,7 @@ class EmailAddressParser
   end
   
   #need to create a method called parse that can separate the string my space or comma
-  def parser
+  def parse
     
   end
 end
