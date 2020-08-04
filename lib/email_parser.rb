@@ -10,7 +10,7 @@ class EmailAddressParser
   
   #need to create a method called parse that can separate the string my space or comma
   def parse
-    array_of_emails = @string_of_emails.split(",")
+    array_of_emails = @string_of_emails.split("," || " ")
     #the next line of code updates my array with each element stripped of its whitespace
     array_of_emails = array_of_emails.map {|email| email.strip}
   end
