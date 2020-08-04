@@ -12,7 +12,7 @@ class EmailAddressParser
   def parse
     array_of_emails = @string_of_emails.split(",")
     #binding.pry
-    array_of_emails = array_of_emails.map {|email| email.slice}
+    array_of_emails = array_of_emails.map {|email| email.strip}
     binding.pry
   end
 end
