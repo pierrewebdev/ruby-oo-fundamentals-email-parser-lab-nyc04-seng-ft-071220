@@ -13,6 +13,9 @@ class EmailAddressParser
     array_of_emails = @string_of_emails.split(/\W/)
     #the next line of code updates my array with each element stripped of its whitespace
     #array_of_emails = array_of_emails.map {|email| email.strip}
-    
+    binding.pry
+    unique_array_of_emails = array_of_emails.uniq
+    unique_array_of_emails
+    binding.pry
   end
 end
