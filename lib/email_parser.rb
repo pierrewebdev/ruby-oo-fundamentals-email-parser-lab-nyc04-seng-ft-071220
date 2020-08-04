@@ -8,5 +8,8 @@ class EmailAddressParser
     @string_of_emails = string_of_emails
   end
   
-  
+  #need to create a method called parse that can separate the string my space or comma
+  def parser
+    
+  end
 end
